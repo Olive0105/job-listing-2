@@ -116,16 +116,16 @@
 }
 
  .jumbotron {
-  background-image:url('http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-542213.png');
+  background-image:url('http://i.imgur.com/kbr4ohs.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 110px;
+  padding-bottom: 100px;
 }
 
 .title {
      background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
      max-width: 500px;//最大宽度
-     margin-top: 200px;//和顶部拉开距离
+     margin-top: 150px;//和顶部拉开距离
      margin-bottom: 0;//这样就可以紧接息面的描述文字
      border-top-right-radius: 3px;//右上角圆边
      border-top-left-radius: 3px;//左上角圆边
@@ -165,8 +165,12 @@
   color: white;
 }
 
+.adjust-btn {
+  margin: 10px;
+}
+
 .caption {
-  margin: 30px;
+  margin: 20px;
   text-align: center;
   top: 20px;
 }
@@ -271,12 +275,29 @@
           }
 
           .btn-danger:hover {
+              color: #FFEB3B;//字体颜色
               background-color: #E65100;//鼠标放置在btn上的背景颜色
 
               border-color: #E65100;//鼠标放置在btn上的边框颜色
 
           }
 
+          .btn-success {
+              color: #fff;//字体颜色
+
+              background-color: #4CAF50;//背景颜色
+
+              border-color: #4CAF50;//边框颜色
+
+          }
+
+          .btn-success:hover {
+              color: #FFEB3B;//字体颜色
+              background-color: #4CAF50;//鼠标放置在btn上的背景颜色
+
+              border-color: #4CAF50;//鼠标放置在btn上的边框颜色
+
+          }
 
 
             .btn-lg, .btn-group-lg > .btn {
